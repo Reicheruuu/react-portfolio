@@ -19,14 +19,36 @@ const Projects = () => {
                 process.env.PUBLIC_URL + "/images/register_cafe.png",  
               ]}
             />
-            <h3>Web Development Project 1</h3>
-            <p>Description of web development project 1.</p>
+            <h3>Cafe Aroma</h3>
+            <p>A complete café management website that allows customers to browse menus, register accounts, and place orders online. 
+                Includes an admin dashboard (built with AdminLTE) for managing orders, menus, and user data.</p>
             <div className="skills">
               <span className="skill-tag">HTML</span>
               <span className="skill-tag">CSS</span>
               <span className="skill-tag">JavaScript</span>
+              <span className="skill-tag">PHP</span>
+              <span className="skill-tag">MySQL</span>
             </div>
           </div>
+
+          <div className="project">
+            <Carousel
+              images={[
+                process.env.PUBLIC_URL + "/images/weather.png",
+ 
+              ]}
+            />
+            <h3>Weather Dashboard</h3>
+            <p>A weather dashboard that provides real-time weather information, including temperature and forecasts for different locations.</p>
+            <div className="skills">
+              <span className="skill-tag">HTML</span>
+              <span className="skill-tag">CSS</span>
+              <span className="skill-tag">JavaScript</span>
+              <span className="skill-tag">React</span>
+              <span className="skill-tag">API</span>
+            </div>
+          </div>
+
         </div>
       </section>
         
