@@ -34,18 +34,22 @@ const Projects = () => {
           <div className="project">
             <Carousel
               images={[
-                process.env.PUBLIC_URL + "/images/weather.png",
- 
+                process.env.PUBLIC_URL + "/images/weather 1.png",
+                process.env.PUBLIC_URL + "/images/weather 2.png",
+                process.env.PUBLIC_URL + "/images/weather 3.png",
               ]}
             />
             <h3>Weather Dashboard</h3>
-            <p>A weather dashboard that provides real-time weather information, including temperature and forecasts for different locations.</p>
+            <p>A full-stack weather dashboard built with React and Node.js that provides real-time weather information. 
+               Features include city search, current conditions, and 5-day forecasts. Uses Express.js backend to handle API requests 
+               and cache weather data for improved performance.</p>
             <div className="skills">
-              <span className="skill-tag">HTML</span>
-              <span className="skill-tag">CSS</span>
-              <span className="skill-tag">JavaScript</span>
               <span className="skill-tag">React</span>
-              <span className="skill-tag">API</span>
+              <span className="skill-tag">Node.js</span>
+              <span className="skill-tag">Express</span>
+              <span className="skill-tag">CSS</span>
+              <span className="skill-tag">OpenWeatherMap API</span>
+              <span className="skill-tag">JavaScript</span>
             </div>
           </div>
 
