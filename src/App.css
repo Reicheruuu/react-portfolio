@@ -9,12 +9,11 @@ header {
 }
 
 nav {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   width: 90%;
   margin: auto;
-  flex-direction: row-reverse;
+  flex-wrap: wrap;
 }
 
 nav .logo {
